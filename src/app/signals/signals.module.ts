@@ -5,6 +5,7 @@ import { SignalsRoutingModule } from './signals-routing.module';
 import { CounterPageComponent } from './pages/counter-page/counter-page.component';
 import { UserInfoPageComponent } from './pages/user-info-page/user-info-page.component';
 import { PropertiesPageComponent } from './pages/properties-page/properties-page.component';
+import { SideMenuComponent } from './components/side-menu/side-menu.component';
 
 
 
@@ -13,7 +14,8 @@ import { PropertiesPageComponent } from './pages/properties-page/properties-page
     SignalLayoutComponent,
     CounterPageComponent,
     UserInfoPageComponent,
-    PropertiesPageComponent
+    PropertiesPageComponent,
+    SideMenuComponent
   ],
   imports: [
     CommonModule,
